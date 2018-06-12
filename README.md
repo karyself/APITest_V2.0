@@ -10,7 +10,7 @@ Tkinter将框架装饰成GUI工具</br>
 
 ## 工程结构
 脚本由Python语言编写，整个工程是个Python package，如图所示。将公共方法封装成单个模块，保存在common目录下。</br>
-![Alt text](C:/Users/Administrator/Desktop/dir.png)</br>
+![Mou icon](C:/Users/Administrator/Desktop/dir.png)</br>
 __init__.py：默认为空</br>
 config.ini：配置文件，保存项目相关、测试用例、邮件相关等常用参数</br>
 readConfig.py：读取配置文件（当前是以绝对路径打开config.ini）</br>
