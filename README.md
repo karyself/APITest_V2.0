@@ -9,7 +9,7 @@ email发送邮件，可附件发送测试报告、日志</br>
 Tkinter将框架装饰成GUI工具</br>
 
 ## 工程结构
-脚本由Python语言编写，整个工程是个Python package，如图所示。将公共方法封装成单个模块，保存在common目录下。</br>
+脚本由Python语言编写，整个工程是个Python package。其中，将公共方法封装成单个模块，保存在common目录下。</br>
 __init__.py：默认为空</br>
 config.ini：配置文件，保存项目相关、测试用例、邮件相关等常用参数</br>
 readConfig.py：读取配置文件（当前是以绝对路径打开config.ini）</br>
