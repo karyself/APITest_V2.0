@@ -10,13 +10,13 @@ Tkinter将框架装饰成GUI工具</br>
 
 ## 工程结构
 脚本由Python语言编写，整个工程是个Python package。其中，将公共方法封装成单个模块，保存在common目录下。</br>
-__init__.py：默认为空</br>
+\_\_init\_\_.py：默认为空</br>
 config.ini：配置文件，保存项目相关、测试用例、邮件相关等常用参数</br>
 readConfig.py：读取配置文件（当前是以绝对路径打开config.ini）</br>
 updateConfig.py：更新配置文件</br>
 run_tests.py：工具控制台界面，实现脚本的整体调用，可单独执行</br>
 APITest.py：工具GUI界面，调用run_tests.py方法，执行测试</br>
-common/__init__.py：默认为空</br>
+common/\_\_init\_\_.py：默认为空</br>
 common/ReadExcel.py：读取Excel表格指定工作簿的单元格值</br>
 common/RequestAPI.py：模拟http请求及响应检验</br>
 common/PrintLog.py：输出日志</br>
